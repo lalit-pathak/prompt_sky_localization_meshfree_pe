@@ -1,0 +1,2 @@
+nodes_seed: 9, start_up_time: 1.01 minutes
+rbf_PE_seed: 0, rbf_PE_time: 2.76 minutes

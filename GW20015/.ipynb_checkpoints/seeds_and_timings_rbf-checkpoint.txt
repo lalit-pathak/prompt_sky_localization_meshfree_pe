@@ -1,0 +1,2 @@
+nodes_seed: 0, nodes_gauss_num: 0.10, start_up_time: 1.17 minutes
+rbf_PE_seed: 0, rbf_PE_time: 14.92 minutes
