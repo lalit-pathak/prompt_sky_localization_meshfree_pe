@@ -1,0 +1,16 @@
+nodes_seed: 9, start_up_time: 0.85 minutes
+nLive: 500, rbf_PE_seed: 0, rbf_PE_time: 1.45 minutes
+nodes_seed: 9, start_up_time: 0.74 minutes
+nLive: 700, rbf_PE_seed: 0, rbf_PE_time: 2.11 minutes
+nodes_seed: 9, start_up_time: 0.71 minutes
+nLive: 1000, rbf_PE_seed: 0, rbf_PE_time: 2.92 minutes
+nodes_seed: 9, start_up_time: 0.81 minutes
+nLive: 1500, rbf_PE_seed: 0, rbf_PE_time: 4.40 minutes
+nodes_seed: 9, start_up_time: 0.85 minutes
+nLive: 2000, rbf_PE_seed: 0, rbf_PE_time: 5.89 minutes
+nodes_seed: 9, start_up_time: 0.78 minutes
+nLive: 2500, rbf_PE_seed: 0, rbf_PE_time: 7.31 minutes
+nodes_seed: 9, start_up_time: 0.86 minutes
+nLive: 3000, rbf_PE_seed: 0, rbf_PE_time: 8.67 minutes
+nodes_seed: 9, start_up_time: 0.76 minutes
+nLive: 3500, rbf_PE_seed: 0, rbf_PE_time: 10.24 minutes

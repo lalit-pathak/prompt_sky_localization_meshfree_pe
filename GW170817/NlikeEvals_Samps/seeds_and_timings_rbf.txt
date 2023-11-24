@@ -1,0 +1,4 @@
+nodes_seed: 9, start_up_time: 0.87 minutes
+number of likelihood calls: 1396388, number of raw samples: 15241 
+number of effective samples: 3633
+rbf_PE_seed: 0, rbf_PE_time: 1.87 minutes

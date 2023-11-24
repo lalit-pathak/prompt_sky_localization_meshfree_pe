@@ -1,0 +1,3 @@
+number of likelihood calls: 1404588, number of raw samples: 15293 
+number of effective samples: 3546
+pycbc_PE_seed: 0 pycbc_pe_time: 88.82 minutes
