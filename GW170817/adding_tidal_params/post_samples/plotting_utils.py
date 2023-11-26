@@ -38,7 +38,7 @@ def plot_corner(samples, fig=None, **kwargs):
 
     return fig
 
-def plot_corner_2datasets(samples, colors, linestyle, measure=None, filename=None, \
+def plot_corner_2datasets(samples, colors, linestyle, contour_fill_alpha, measure=None, filename=None, \
                                   plot_density_arr=None, fill_contour_arr=None, save=True, **kwargs):
     
     fig = plot_corner(samples[0], **kwargs)
@@ -52,11 +52,14 @@ def plot_corner_2datasets(samples, colors, linestyle, measure=None, filename=Non
             
         if linestyle:
             ls = linestyle[i]
+            
+        if contour_fill_alpha:
+            alpha = contour_fill_alpha[i]
                         
         kwargs.get('hist_kwargs').update(color=c)
         kwargs.get('hist_kwargs').update(ls=ls)
         kwargs.get('contour_kwargs').update(colors=c)
-        kwargs.get('contour_kwargs').update(linestyles=ls)
+        kwargs.get('contour_kwargs').update(linestyles=ls, alpha=alpha)
         kwargs.update(color=c)
 
         fig = plot_corner(samps, fig=fig, **kwargs)
